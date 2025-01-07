@@ -1,5 +1,9 @@
 import streamlit as st
 
+##############
+st.sidebar.image("imagenes/img1.PNG",
+                 caption="CICLO VERANO: BONIFATTI 2025")
+
 st.title("Temario de Conceptos Básicos: Física, Química y Matemáticas")
 
 st.header("Introducción")
