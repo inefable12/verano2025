@@ -79,13 +79,13 @@ def pagina6():
 ###################################################################    
 
 page_names_to_funcs = {
-  "Inicio": Home(),
-  "Semana 1": pagina1(),
-  "Semana 2": pagina2(),
-  "Semana 3": pagina3(),
-  "Semana 4": pagina4(),
-  "Semana 5": pagina5(),
-  "Semana 6": pagina6(),
+  "Inicio": Home,
+  "Semana 1": pagina1,
+  "Semana 2": pagina2,
+  "Semana 3": pagina3,
+  "Semana 4": pagina4,
+  "Semana 5": pagina5,
+  "Semana 6": pagina6,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona la semana:", page_names_to_funcs.keys())
