@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 ##############
 st.sidebar.image("imagenes/img1.PNG",
