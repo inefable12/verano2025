@@ -21,7 +21,7 @@ def pagina1():
                                   'Matemáticas'],
                          'Tema': ["Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
-                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]}))
+                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]}, indel_col=False))
 #st.header("Introducción")
 
 def pagina2():
@@ -79,7 +79,7 @@ def pagina6():
 ###################################################################    
 
 page_names_to_funcs = {
-  "Inicio": Home,
+  "Inicio": Home(),
   "Semana 1": pagina1(),
   "Semana 2": pagina2(),
   "Semana 3": pagina3(),
