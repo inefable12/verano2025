@@ -17,7 +17,7 @@ def Home():
   st.sidebar.markdown("Esta página detalla los temas desarrollados en el ciclo verano de 6 semanas que abarca conceptos fundamentales en Física, Química y Matemáticas.")
   
 def pagina1():
-  st.title("Conceptos Básicos: Física, Química y Matemáticas")
+  st.title("Conceptos Básicos")
   st.info('Semana 1: 7, 9 y 11 de enero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -26,9 +26,11 @@ def pagina1():
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
                                    "Planteamiento de ecuaciones y programación con calculadora CASIO."]}))
   
-  st.header("Anotaciones")
+  st.subheader("Anotaciones")
   st.write("Manual de la Calculadora CASIO: https://www.manual.pe/casio/cfx-9850gc-plus/manual?p=405#google_vignette")
   st.write("Ejecutable: https://drive.google.com/open?id=0By0zSAlbksYOZWstVkRLdE5ydjA")
+  image1 =Image.open("imagenes/casio_imagen.PNG")
+  st.image(image1, caption='Calculadora CASIO')
 
 def pagina2():
   st.title("Temas introductorios de Física, Química y Matemáticas")
