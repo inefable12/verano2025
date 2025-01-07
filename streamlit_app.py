@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 ##############
 st.sidebar.image("imagenes/img1.PNG",
