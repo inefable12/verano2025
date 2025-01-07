@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Temario de Conceptos Básicos: Física, Química y Matemáticas")
 
 st.header("Introducción")
-st.info("Profesor Jesus Alvarado-Huayhuaz")
+st.info("Profesor Jesús Alvarado-Huayhuaz")
 st.write("""
 Esta página detalla los temas desarrollados en el ciclo verano de 6 semanas que abarca conceptos fundamentales en Física, Química y Matemáticas.
 """)
@@ -12,7 +12,7 @@ Esta página detalla los temas desarrollados en el ciclo verano de 6 semanas que
 temario = {
     "Semana 1": {
         "Física": "Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
-        "Química": "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
+        "Química": "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas.",
         "Matemáticas": "Planteamiento de ecuaciones y programación con calculadora CASIO."
     },
     "Semana 2": {
@@ -42,9 +42,15 @@ temario = {
     }
 }
 
-for semana, temas in temario.items():
-    st.subheader(semana)
-    for materia, contenido in temas.items():
-        st.markdown(f"**{materia}:** {contenido}")
+# Menú desplegable en la barra lateral
+semana_seleccionada = st.sidebar.selectbox(
+    "Selecciona la semana:",
+    list(temario.keys())
+)
+
+# Mostrar contenido de la semana seleccionada
+st.subheader(semana_seleccionada)
+for materia, contenido in temario[semana_seleccionada].items():
+    st.markdown(f"**{materia}:** {contenido}")
 
 st.info("Esta página se irá actualizando luego de cada clase.")
