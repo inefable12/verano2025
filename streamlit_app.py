@@ -29,7 +29,7 @@ def pagina1():
   st.subheader("Anotaciones del Martes 7 de enero del 2025")
   st.write("Manual de la Calculadora CASIO:")
   st.write("https://www.manual.pe/casio/cfx-9850gc-plus/manual?p=405#google_vignette")
-  st.write("Descarga gratuita: https://drive.google.com/open?id=0By0zSAlbksYOZWstVkRLdE5ydjA")
+  st.write("Descarga gratuita: https://drive.google.com/file/d/0By0zSAlbksYOZWstVkRLdE5ydjA/view?usp=sharing&resourcekey=0-0kNx0yr-VQp5OqLFf2BguQ")
   image1 =Image.open("imagenes/casio_imagen.PNG")
   st.image(image1, caption='Calculadora CASIO')
 
