@@ -25,7 +25,13 @@ def pagina1():
                          'Tema': ["Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
                                    "Planteamiento de ecuaciones y programación con calculadora CASIO."]}))
-#st.header("Introducción")
+  
+  st.header("Anotaciones")
+  st.write("""
+  Manual de la Calculadora CASIO: https://www.manual.pe/casio/cfx-9850gc-plus/manual?p=405#google_vignette
+  Ejecutable: https://drive.google.com/open?id=0By0zSAlbksYOZWstVkRLdE5ydjA
+  """)
+  
 
 def pagina2():
   st.title("Temas introductorios de Física, Química y Matemáticas")
