@@ -21,7 +21,7 @@ def pagina1():
                                   'Matemáticas'],
                          'Tema': ["Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
-                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]}, indel_col=False))
+                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]}, indel_col=None))
 #st.header("Introducción")
 
 def pagina2():
