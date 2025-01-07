@@ -3,12 +3,14 @@ import pandas as pd
 
 ##############
 st.sidebar.image("imagenes/img1.PNG",
-                 caption="CICLO VERANO: BONIFATTI 2025")
+                 caption="Dicta: Dr. Jesús Alvarado-Huayhuaz")
 
 #############################Pagina 1############################## 
 def Home():
   st.header('CICLO VERANO "BONIFATTI 2025" 🍫', divider='rainbow')
-  st.info("Profesor Jesús Alvarado-Huayhuaz")
+  #st.info("Profesor Jesús Alvarado-Huayhuaz")
+  image = Image.open("imagenes/Reforzamiento_2025.png")
+  st.image(image, caption='CICLO VERANO "BONIFATTI 2025"')
   st.sidebar.markdown("# Nivel Secundaria")
   st.sidebar.markdown("Desde el 7 de enero hasta 15 de febrero")
   st.sidebar.markdown("Esta página detalla los temas desarrollados en el ciclo verano de 6 semanas que abarca conceptos fundamentales en Física, Química y Matemáticas.")
