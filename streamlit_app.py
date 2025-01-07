@@ -94,4 +94,8 @@ page_names_to_funcs = {
 selected_page = st.sidebar.selectbox("Selecciona la semana:", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
 
-st.info("Esta página se irá actualizando luego de cada clase.")
+st.info("Nuestras redes.")
+st.link_button("Tiktok", "https://www.tiktok.com/@inefable12x")
+st.link_button("Youtube", "https://www.youtube.com/channel/UCm6lcnfmNS2stsUYVvrFOzg")
+st.link_button("Facebook", "https://www.facebook.com/tallerespuquna")
+st.link_button("Github", "https://github.com/inefable12")
