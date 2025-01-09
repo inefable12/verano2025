@@ -17,7 +17,7 @@ def Home():
   st.sidebar.markdown("Esta página detalla los temas desarrollados en el ciclo verano de 6 semanas que abarca conceptos fundamentales en Física, Química y Matemáticas.")
   
 def pagina1():
-  st.title("Conceptos Básicos")
+  st.title("Conceptos Básicos", divider='rainbow')
   st.info('Semana 1: 7, 9 y 11 de enero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -27,7 +27,7 @@ def pagina1():
                                    "Planteamiento de ecuaciones y programación con calculadora CASIO."]}))
 
   st.subheader("Anotaciones del Jueves 9 de enero del 2025")
-  st.write("Libros, diseño de moléculas e impresión 3D", divider='rainbow')
+  st.write("Libros, diseño de moléculas e impresión 3D")
   st.write("Carpeta de libros compartidos: https://drive.google.com/drive/folders/12kibnRt1O8SzsfK12cnQFR7RkzO2Q4Ql?usp=sharing")
   
   st.subheader("Anotaciones del Martes 7 de enero del 2025")
@@ -38,7 +38,7 @@ def pagina1():
   st.image(image1, caption='Calculadora CASIO')
 
 def pagina2():
-  st.title("Temas introductorios de Física, Química y Matemáticas")
+  st.title("Temas introductorios de Física, Química y Matemáticas", divider='rainbow')
   st.info('Semana 2: 14, 16 y 18 de enero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -48,7 +48,7 @@ def pagina2():
                                    "Introducción a la resolución de problemas usando Python."]}))
 
 def pagina3():
-  st.title("Temas introductorios de Física, Química y Matemáticas")
+  st.title("Temas introductorios de Física, Química y Matemáticas", divider='rainbow')
   st.info('Semana 3: 21, 23 y 25 de enero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -58,7 +58,7 @@ def pagina3():
                                    "Álgebra básica: ecuaciones lineales y sistemas de ecuaciones"]}))
 
 def pagina4():
-  st.title("Temas introductorios de Física, Química y Matemáticas")
+  st.title("Temas introductorios de Física, Química y Matemáticas", divider='rainbow')
   st.info('Semana 4: 28 y 30 de enero; 1 de febrero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -68,7 +68,7 @@ def pagina4():
                                    "Geometría: áreas, perímetros y volúmenes de figuras comunes."]}))
 
 def pagina5():
-  st.title("Temas introductorios de Física, Química y Matemáticas")
+  st.title("Temas introductorios de Física, Química y Matemáticas", divider='rainbow')
   st.info('Semana 5: 4, 6 y 8 de febrero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
@@ -78,7 +78,7 @@ def pagina5():
                                    "Funciones: conceptos básicos y representación gráfica."]}))
 
 def pagina6():
-  st.title("Temas introductorios de Física, Química y Matemáticas")
+  st.title("Temas introductorios de Física, Química y Matemáticas", divider='rainbow')
   st.info('Semana 6: 11, 13 y 15 de febrero del 2025') 
   st.write(pd.DataFrame({'Curso': ['Física',
                                   'Química',
