@@ -24,7 +24,7 @@ def pagina1():
                                   'Matemáticas'],
                          'Tema': ["Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
-                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]},hide_index=True))
+                                   "Planteamiento de ecuaciones y programación con calculadora CASIO."]}),hide_index=True)
 
   st.subheader("Anotaciones del Jueves 9 de enero del 2025")
   st.write("Libros, diseño de moléculas e impresión 3D")
