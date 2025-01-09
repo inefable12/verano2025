@@ -25,6 +25,10 @@ def pagina1():
                          'Tema': ["Introducción a las magnitudes físicas y vectoriales, unidades SI y conversión de unidades.",
                                    "Estructura del átomo, configuración electrónica. Impresión 3D de moléculas",
                                    "Planteamiento de ecuaciones y programación con calculadora CASIO."]}))
+
+  st.subheader("Anotaciones del Jueves 9 de enero del 2025")
+  st.write("Libros, diseño de moléculas e impresión 3D")
+  st.write("Carpeta de libros compartidos: https://drive.google.com/drive/folders/12kibnRt1O8SzsfK12cnQFR7RkzO2Q4Ql?usp=sharing")
   
   st.subheader("Anotaciones del Martes 7 de enero del 2025")
   st.write("Manual de la Calculadora CASIO:")
